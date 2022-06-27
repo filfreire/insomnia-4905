@@ -1,7 +1,7 @@
 _id: req_6244dcbb0d0849e7a04f31d6e8bb5d02
 type: Request
 parentId: wrk_c8a7c1d78c72494382227fc11499fa4b
-modified: 1656335668884
+modified: 1656335929496
 created: 1656335456833
 url: rickandmortyapi.com/graphql
 name: Example graphql with request chaining
@@ -19,7 +19,10 @@ headers:
   - name: Content-Type
     value: application/json
     id: pair_06dd03bbc8f741a58ad6fc84b14909e6
-authentication: {}
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_3d8dd144e6da4246991d0c35e70ce1b8',
+    'b64::JC5leGFtcGxlYXV0aA==::46b', 'never', 60 %}"
 metaSortKey: -1000000000
 isPrivate: false
 settingStoreCookies: true
