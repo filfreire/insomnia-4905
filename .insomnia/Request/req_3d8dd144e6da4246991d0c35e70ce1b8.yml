@@ -1,0 +1,29 @@
+_id: req_3d8dd144e6da4246991d0c35e70ce1b8
+type: Request
+parentId: wrk_c8a7c1d78c72494382227fc11499fa4b
+modified: 1656335460451
+created: 1656335450429
+url: mockbin.org/echo
+name: Fetch something from
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "name": "rick"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_db2792f78fdb46758593af1089c79027
+authentication: {}
+metaSortKey: -1000000000
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

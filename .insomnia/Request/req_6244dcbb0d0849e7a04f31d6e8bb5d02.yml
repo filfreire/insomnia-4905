@@ -1,0 +1,30 @@
+_id: req_6244dcbb0d0849e7a04f31d6e8bb5d02
+type: Request
+parentId: wrk_c8a7c1d78c72494382227fc11499fa4b
+modified: 1656335631808
+created: 1656335456833
+url: rickandmortyapi.com/graphql
+name: Example graphql with request chaining
+description: ""
+method: POST
+body:
+  mimeType: application/graphql
+  text: "{\"query\":\"query ($name: String) {\\n  characters(page: 2, filter: {
+    name: $name }) {\\n    info {\\n      count\\n    }\\n    results
+    {\\n      name\\n    }\\n  }\\n}\\n\",\"variables\":{\"name\":\"{% response
+    'body', 'req_3d8dd144e6da4246991d0c35e70ce1b8', 'b64::JC5uYW1l::46b',
+    'always', 60 %}\"}}"
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_06dd03bbc8f741a58ad6fc84b14909e6
+authentication: {}
+metaSortKey: -1000000000
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
