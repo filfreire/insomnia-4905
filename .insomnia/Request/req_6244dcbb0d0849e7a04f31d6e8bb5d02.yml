@@ -1,7 +1,7 @@
 _id: req_6244dcbb0d0849e7a04f31d6e8bb5d02
 type: Request
 parentId: wrk_c8a7c1d78c72494382227fc11499fa4b
-modified: 1656335631808
+modified: 1656335668884
 created: 1656335456833
 url: rickandmortyapi.com/graphql
 name: Example graphql with request chaining
